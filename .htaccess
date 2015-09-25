@@ -18,7 +18,7 @@ RewriteCond %{HTTP_USER_AGENT} Indy.Library [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} TrackBack [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} "^Crazy Browser" [NC,OR]
 ## USER AGENTS
-RewriteCond %{HTTP_USER_AGENT} ^$ [NC,OR]
+#RewriteCond %{HTTP_USER_AGENT} ^$ [NC,OR] # Use this line at your own risk. Posting to Tumblr etc will be disabled.
 RewriteCond %{HTTP_USER_AGENT} "^AESOP_com_SpiderMan" [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} "^Alexibot" [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} "Anonymouse.org" [NC,OR]
