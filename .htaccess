@@ -310,6 +310,7 @@ RewriteCond %{HTTP_REFERER} work-from-home-earn-money-online.com [NC,OR]
 RewriteCond %{HTTP_REFERER} free-floating [NC,OR]
 RewriteCond %{HTTP_REFERER} free-social [NC,OR]
 RewriteCond %{HTTP_REFERER} free-floating-buttons.com [NC,OR]
+RewriteCond %{HTTP_REFERER} rankings-analytics.com [NC,OR]
 # Spam IP's
 RewriteCond %{REMOTE_ADDR} ^12.163.72.13$ [OR]
 RewriteCond %{REMOTE_ADDR} ^98.126.112.90$
