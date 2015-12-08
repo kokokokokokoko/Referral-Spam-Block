@@ -315,6 +315,7 @@ RewriteCond %{HTTP_REFERER} best-seo-software.xyz [NC,OR]
 RewriteCond %{HTTP_REFERER} get-free-social-traffic.com [NC,OR]
 RewriteCond %{HTTP_REFERER} traffic2money.com [NC,OR]
 RewriteCond %{HTTP_REFERER} fast-wordpress-start.com [NC,OR]
+RewriteCond %{HTTP_REFERER} top1-seo-service.com [NC,OR]
 # Spam IP's
 RewriteCond %{REMOTE_ADDR} ^12.163.72.13$ [OR]
 RewriteCond %{REMOTE_ADDR} ^98.126.112.90$
